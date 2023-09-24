@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SettingsFile>
+    <Settings>
+        <host>127.0.0.1</host>
+        <port>8089</port>
+        <DateTimeFormate>[dd-MM-yyyy]-[HH:mm:ss]</DateTimeFormate>
+    </Settings>
+</SettingsFile>
