@@ -34,6 +34,7 @@ public class ThreadInputMessage extends Thread {
         } finally {
             System.out.println(client.getFormatForDateNow().format(new Date()) + " " + client.getName() + "(you) : " + " Disconnect from server");
             client.getLogWorker().logWrite(client.getFormatForDateNow().format(new Date()) + " " + client.getName() + "(you) : " + " Disconnect from server");
+            System.exit(0);
         }
     }
 }

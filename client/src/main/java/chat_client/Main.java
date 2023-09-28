@@ -16,11 +16,12 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             if (!client.getActive()) {
-                System.out.println("Enter name : ");
+                System.out.print("Enter name : ");
             }
             String command = scanner.next();
             if (command.toLowerCase().equals("/exit")) {
                 client.disconnect();
+                break;
             } else {
                 if (client.getActive()) {
                     client.sendMessage(command);
